@@ -5,11 +5,11 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: goutham
+      name: goutham
   template:
     metadata:
       labels:
-        app: goutham
+        name: goutham
     spec:
       containers:
       - name: goutham
