@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: goutham
 spec:
   selector:
     matchLabels:
-      app: myapp
+      app: goutham
   template:
     metadata:
       labels:
-        app: myapp
+        app: goutham
     spec:
       containers:
-      - name: myapp
+      - name: goutham
         image: gcr.io/augmented-ward-329505/gcme
         resources:
           limits:
