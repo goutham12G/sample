@@ -2,7 +2,7 @@ pipeline {
 
   environment {
     PROJECT = "augmented-ward-329505"
-    APP_NAME = "gouth"
+    APP_NAME = "gcme"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "false"
     CLUSTER_ZONE = "us-central1-c"
