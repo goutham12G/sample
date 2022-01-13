@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    PROJECT = "focus-tree-329108"
+    PROJECT = "augmented-ward-329505"
     APP_NAME = "gouth"
     FE_SVC_NAME = "${APP_NAME}-frontend"
     CLUSTER = "false"
