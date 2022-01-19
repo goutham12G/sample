@@ -47,8 +47,8 @@ spec:
       steps {
         container('golang') {
           sh """
-            ln -s `pwd` /go/src/sample
-            cd /go/src/sample
+            ln -s `pwd` /go/src/app
+            cd /go/src/app
             go test
           """
         }
